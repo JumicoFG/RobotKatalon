@@ -24,7 +24,7 @@ public class KatalonExport {
     }
 
     @Test
-    public void testUntitledTestCase() throws Exception {
+    public void testUntitledTest() throws Exception {
         driver.get("http://robot.progideo.com/Accueil.php?seed=3");
         driver.findElement(By.id("newCarte")).click();
         driver.findElement(By.linkText("Avancer")).click();
